@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <link rel="stylesheet" href="styles/application.css">
+        
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <style>
+          body {
+            background-image: url(pictures/web.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+          }
+        </style>
+    
+        
+        <title>Registration Form</title>   
+    </head>
+
+
+  <body>
+    <div class="container" title="Fill the Registration Form and Click Submit">
+      <header>Registration</header>
+
+      <form action="">
+        <div class="form first">
+          
+          <div class="details personal ">
+            <span class="title">Personal Details</span>
+            <i class="fa fa-user" aria-hidden="true"></i>
+
+                <div class="fields">
+                  
+                    <div class="input-field">
+                      <label>Full Name</label>
+                      <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Date of Birth</label>
+                      <input type="date" placeholder="Enter Your date of birth" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Email</label>
+                      <input type="text" placeholder="Enter Your Email" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Mobile Number</label>
+                      <input type="search" placeholder="Enter Your mobile number" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Gender</label>
+                      <select name="language" id="language">
+                        <option value="Male" >Male</option>
+                        <option value="Female">Female</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Address</label>
+                      <input type="text" placeholder="Enter Your address" required>
+                    </div>
+            </div>
+          </div>
+
+          <div class="details guarantor">
+            <span class="title">Parent/Guardian Details</span>
+
+                <div class="fields">
+                  
+                    <div class="input-field">
+                      <label>Full Name</label>
+                      <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Date of Birth</label>
+                      <input type="date" placeholder="Enter Your date of birth" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Email</label>
+                      <input type="text" placeholder="Enter Your Email" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Mobile Number</label>
+                      <input type="number" placeholder="Enter Your mobile number" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Gender</label>
+                      <select name="language" id="language">
+                        <option value="Male" >Male</option>
+                        <option value="Female">Female</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Address</label>
+                      <input type="text" placeholder="Enter Your address" required>
+                    </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form second">
+          
+          <div class="details address ">
+            <span class="title">Full Address Details</span>
+
+                <div class="fields">
+                  
+                    <div class="input-field">
+                      <label>Nationality</label>
+                      <select name="nation" id="nation" required>
+                        <option value="Nigeria" >Nigeria</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Mali">Mali</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label>State</label>
+                      <select name="state" id="state" required>
+                        <option value="Abia" >Abia</option>
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Bauchi">Bauchi</option>
+                        <option value="Bayelsa">Bayelsa</option>
+                        <option value="Benue">Benue</option>
+                        <option value="Borno">Borno</option>
+                        <option value="Cross-Rivers">Cross-Rivers</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Ebonyi">Ebonyi</option>
+                        <option value="Edo">Edo</option>
+                        <option value="Ekiti">Ekiti</option>
+                        <option value="Enugu">Enugu</option>
+                        <option value="Gombe">Gombe</option>
+                        <option value="Imo">Imo</option>
+                        <option value="Jigawa">Jigawa</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value="Kano">Kano</option>
+                        <option value="Katsina">Katsina</option>
+                        <option value="Kebbi">Kebbi</option>
+                        <option value="Kogi">Kogi</option>
+                        <option value="Kwara">Kwara</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Nassarawa">Nassarawa</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Zamfara">Zamfara</option>
+                        <option value="FCT Abuja">FCT Abuja</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Local Government Area</label>
+                      <select name="lga" id="lga" required>
+                        <option value="Suleja" >Suleja</option>
+                        <option value="Tafa">Tafa</option>
+                        <option value="Bosso">Bosso</option>
+                        <option value="Makwa">Makwa</option>
+                        <option value="Agaie">Agaie</option>
+                        <option value="Lapai">Lawai</option>
+                        <option value="Bargu">Bargu</option>
+                        <option value="Gurara">Gurara</option>
+                        <option value="Chanchaga">Chanchaga</option>
+                        <option value="Minna">Minna</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label>City</label>
+                      <input type="text" placeholder="Enter Your city" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Ward</label>
+                      <input type="text" placeholder="Enter Your ward" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Street</label>
+                      <input type="text" placeholder="Enter Your street" required>
+                    </div>
+            </div>
+          </div>
+
+          <div class="details nextOfKin">
+            <span class="title">Next of Kin's Details</span>
+
+                <div class="fields">
+                  
+                    <div class="input-field">
+                      <label>Full Name</label>
+                      <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Date of Birth</label>
+                      <input type="date" placeholder="Enter Your date of birth" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Relationship</label>
+                      <select name="Relationship" id="Relationship" required>
+                        <option value="Father" >Father</option>
+                        <option value="Mother">Mother</option>
+                        <option value="Brother">Brother</option>
+                        <option value="Sister">Sister</option>
+                        <option value="Son">Son</option>
+                        <option value="Daughter">Daughter</option>
+                        <option value="other">other...</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Mobile Number</label>
+                      <input type="number" placeholder="Enter Your mobile number" required>
+                    </div>
+
+                    <div class="input-field">
+                      <label>Gender</label>
+                      <select name="gender" id="gender" required>
+                        <option value="Male" >Male</option>
+                        <option value="Female">Female</option>
+                        <option value="..." selected>...</option>
+                      </select>
+                    </div>
+
+                    <div class="input-field">
+                      <label> Address</label>
+                      <input type="text" placeholder="Enter Your address" required>
+                    </div>
+            </div>
+            
+            <div class="buttons" title="Submit Here" onclick="
+            
+            ">
+              <button class="summit">
+                <span onclick="
+                  document.querySelector('.buttons')
+                  .innerText;
+                  
+                  let buttonElem = document.querySelector('.summit')
+                  .innerHTML;
+
+                  if (buttonElem.innerHTML === 'Submit') {
+                    buttonElem.innerHTML ='Submitted';
+                  }
+                  " class="btnText">Submit</span>
+              </button>
+            </div>
+
+
+          </div>
+        </div>
+      </form>
+    </div>
+  <script>
+    /*
+    const form = document.querySelector('form'),
+        nextBtn = document.querySelector('.nextBtn'),
+        backBtn = document.querySelector('.backBtn'),
+        allInput = document.querySelector('.first input');
+
+    nextBtn.addEventListener("click", ()=>{
+      allInput.forEach(input => {
+        if(input.value != ""){
+          form.classList.add('secActive');
+        }else {
+          form.classList.remove('secActive');
+          alert('invalid Input')
+        }
+      });
+    })
+    */
+  </script>
+
+  </body>
+</html>
