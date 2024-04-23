@@ -1,0 +1,12 @@
+body {
+  font-family: roboto, Arial;
+}
+
+.right {
+  display: flex;
+  background-color: lightpink;
+}
+.left {
+  display: flex;
+  background-color: lightblue;
+}

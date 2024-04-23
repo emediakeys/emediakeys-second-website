@@ -1,0 +1,216 @@
+}
+<style>
+.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal {
+    margin: auto;
+}
+<style>
+.swal2-show {
+    -webkit-animation: swal2-show .3s;
+    animation: swal2-show .3s;
+}
+<style>
+[class^=swal2] {
+    -webkit-tap-highlight-color: transparent;
+}
+<style>
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    width: 32em;
+    max-width: 100%;
+    padding: 1.25em;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+}
+.swal2-popup {
+    width: 23rem !important;
+}
+.swal2-popup {
+    border-radius: 24px !important;
+}
+article, body, button, div, h1, h2, h3, h4, h5, h6, li, main, ol, section, span, strong, table, tbody, th, thead, tr, ul {
+    font-family: HelveticaNeue, Roboto, sans-serif !important;
+}
+* {
+    outline: none;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+[data-typography=poppins] {
+    font-family: poppins, sans-serif;
+}
+body {
+    font-size: .875rem;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: #f0f0f0;
+    color: #777;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+style attribute {
+    --vh: 2.74px;
+}
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: #ffffffb3;
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient(90deg, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+}
+:root {
+    --primary: #61ce70;
+    --secondary: #4cbc9a;
+    --secondary-dark: #3a9b7e;
+    --primary-hover: #61ce70;
+    --primary-dark: #bf1400;
+    --rgba-primary-1: #ff6a591a;
+    --rgba-primary-2: #ff6a5933;
+    --rgba-primary-3: #ff6a594d;
+    --rgba-primary-4: #ff6a5966;
+    --rgba-primary-5: #ff6a5980;
+    --rgba-primary-6: #ff6a5999;
+    --rgba-primary-7: #ff6a59b3;
+    --rgba-primary-8: #ff6a59cc;
+    --rgba-primary-9: #ff6a59e6;
+    --rgba-secondary-1: #4cbc9a1a;
+    --rgba-secondary-2: #4cbc9a33;
+    --rgba-secondary-3: #4cbc9a4d;
+    --rgba-secondary-4: #4cbc9a66;
+    --rgba-secondary-5: #4cbc9a80;
+    --rgba-secondary-6: #4cbc9a99;
+    --rgba-secondary-7: #4cbc9ab3;
+    --rgba-secondary-8: #4cbc9acc;
+    --rgba-secondary-9: #4cbc9ae6;
+    --font-family-base: Roboto, sans-serif;
+    --font-family-title: Roboto, sans-serif;
+    --title: #374557;
+}
+:root {
+    --nav-headbg: #fff;
+    --sidebar-bg: #fff;
+    --headerbg: #e2e2e2;
+}
+:root {
+    --primary-hover: #3a9b7e;
+}
+@media only screen and (max-width: 100rem)
+:root {
+    font-size: 14px;
+}
+:root {
+    --bs-blue: #5e72e4;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e83e8c;
+    --bs-red: #ee3232;
+    --bs-orange: #f90;
+    --bs-yellow: #fffa6f;
+    --bs-green: #297f00;
+    --bs-teal: #20c997;
+    --bs-cyan: #3065d0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #61ce70;
+    --bs-secondary: #4cbc9a;
+    --bs-success: #56c760;
+    --bs-info: #58bad7;
+    --bs-warning: #f0a901;
+    --bs-danger: #f75a5b;
+    --bs-light: #c8c8c8;
+    --bs-dark: #6e6e6e;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, #ffffff26, #fff0);
+}
+:host, :root {
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-regular: normal 400 1em / 1 "Font Awesome 6 Free";
+}
+:host, :root {
+    --fa-font-brands: normal 400 1em / 1 "Font Awesome 6 Brands";
+}
+:after, :before {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+:after, :before {
+    margin: 0;
+    padding: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+::selection {
+    background: #61ce70;
+    background: var(--primary);
+    color: #fff;
+}
+<style>
+0% {
+    transform: scale(.7);
+}
+<style>
+45% {
+    transform: scale(1.05);
+}
+<style>
+80% {
+    transform: scale(.95);
+}
+<style>
+100% {
+    transform: scale(1);
+}
